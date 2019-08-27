@@ -6,14 +6,17 @@ public class Wage_Calculator {
 		
 		
 		System.out.println(salary());
+		
 	}
 	
 	static int salary(){
+		int wage;
 		
+		System.out.println("Hourly Salary: ");
 		Scanner sc = new Scanner(System.in);
-	    int wage = sc.nextInt();
+		wage = sc.nextInt();
 	    sc.close();
-	    wage = wage * 40 * 50;
+	    wage = wage * 40 * 4 * 12;
 	      
 		return wage;
 	}

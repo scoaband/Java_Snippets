@@ -1,11 +1,14 @@
 import java.util.Scanner;
 
-public class Wage_Calculator {
+public class Main {
 
 	public static void main(String[] args) {
 		
 		
 		salary();
+		// test();
+		
+		
 		
 	}
 	
@@ -33,7 +36,35 @@ public class Wage_Calculator {
 	    	Fl_great10tax = (long) (0.20 * wage);
 	    	yearWage = wage - Fl_great10tax;
 		    System.out.println("Year Salary: " + yearWage);
-	    }
-	    
+	    }  
 	}
+	
+	static void test() {
+		
+		
+	}
+	
+	// Class to learn from
+	class Bicycle {
+
+	    int cadence = 0;
+	    int speed = 0;
+	    int gear = 1;
+
+	    // newValue
+	    void changeGear(int newValue) {
+	         gear = newValue;
+	    }
+	    // increment
+	    void speedUp(int increment) {
+	         speed = speed + increment;   
+	    }
+	    // decrement
+	    void applyBrakes(int decrement) {
+	         speed = speed - decrement;
+	    }
+
+	  
+	}
+	
 }
